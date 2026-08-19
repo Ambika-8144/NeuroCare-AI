@@ -19,3 +19,29 @@
                  ▼                           ▼
            Caregiver                    Doctor
            Dashboard                   Dashboard
+
+
+
+----------------------------------------------------------------------------------------------------
+
+
+
+                 NEUROCARE AI
+                      │
+       ┌──────────────┼──────────────┐
+       │              │              │
+       ▼              ▼              ▼
+   Frontend        Backend        Database
+       │              │              │
+       │              │              │
+       ├── Patient    ├── Auth       ├── Users
+       ├── Caregiver  ├── Medication ├── Medicines
+       └── Doctor     ├── GPS/SOS    ├── Alerts
+                      └── EEG API    └── History
+                            │
+                            ▼
+                       [WAITING FOR
+                        EEG DATA]
+                            │
+                            ▼
+                     Actual AI Model
