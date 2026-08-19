@@ -1,0 +1,29 @@
+1️⃣ Project setup
+       ↓
+2️⃣ MongoDB database
+       ↓
+3️⃣ User authentication
+       ↓
+4️⃣ Role-based dashboards
+       ↓
+5️⃣ Patient profile
+       ↓
+6️⃣ Medication management
+       ↓
+7️⃣ Notifications
+       ↓
+8️⃣ GPS + consent
+       ↓
+9️⃣ SOS
+       ↓
+🔟 Doctor dashboard
+       ↓
+1️⃣1️⃣ Medical documents
+       ↓
+1️⃣2️⃣ EEG API (mock initially)
+       ↓
+1️⃣3️⃣ Actual EEG model
+       ↓
+1️⃣4️⃣ XAI
+       ↓
+1️⃣5️⃣ Full integration
