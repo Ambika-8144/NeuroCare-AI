@@ -45,3 +45,28 @@
                             │
                             ▼
                      Actual AI Model
+
+----------------------------------------------------------------------------------------------------
+
+NeuroCare-AI/
+│
+├── frontend/              # React
+│
+├── backend/               # Node + Express
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── services/
+│   ├── config/
+│   └── server.js
+│
+├── ai-service/            # Python + FastAPI
+│   ├── models/
+│   ├── preprocessing/
+│   ├── explainability/
+│   └── main.py
+│
+├── docs/
+│
+└── README.md
