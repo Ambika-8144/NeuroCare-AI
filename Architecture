@@ -1,0 +1,21 @@
+                    ┌─────────────────────┐
+                    │     NeuroCare AI    │
+                    └──────────┬──────────┘
+                               │
+          ┌────────────────────┼────────────────────┐
+          │                    │                    │
+          ▼                    ▼                    ▼
+   AI + EEG Module      Patient & Medication   Emergency Module
+          │                    │                    │
+          ▼                    ▼                    ▼
+   Seizure Detection     Medication Reminder    GPS Tracking
+   Risk Analysis         Alarm / Voice          SOS Alerts
+   Explainable AI        Confirmation Video     Notifications
+          │                    │                    │
+          └────────────────────┼────────────────────┘
+                               │
+                 ┌─────────────┴─────────────┐
+                 │                           │
+                 ▼                           ▼
+           Caregiver                    Doctor
+           Dashboard                   Dashboard
