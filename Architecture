@@ -1,0 +1,72 @@
+                    ┌─────────────────────┐
+                    │     NeuroCare AI    │
+                    └──────────┬──────────┘
+                               │
+          ┌────────────────────┼────────────────────┐
+          │                    │                    │
+          ▼                    ▼                    ▼
+   AI + EEG Module      Patient & Medication   Emergency Module
+          │                    │                    │
+          ▼                    ▼                    ▼
+   Seizure Detection     Medication Reminder    GPS Tracking
+   Risk Analysis         Alarm / Voice          SOS Alerts
+   Explainable AI        Confirmation Video     Notifications
+          │                    │                    │
+          └────────────────────┼────────────────────┘
+                               │
+                 ┌─────────────┴─────────────┐
+                 │                           │
+                 ▼                           ▼
+           Caregiver                    Doctor
+           Dashboard                   Dashboard
+
+
+
+----------------------------------------------------------------------------------------------------
+
+
+
+                 NEUROCARE AI
+                      │
+       ┌──────────────┼──────────────┐
+       │              │              │
+       ▼              ▼              ▼
+   Frontend        Backend        Database
+       │              │              │
+       │              │              │
+       ├── Patient    ├── Auth       ├── Users
+       ├── Caregiver  ├── Medication ├── Medicines
+       └── Doctor     ├── GPS/SOS    ├── Alerts
+                      └── EEG API    └── History
+                            │
+                            ▼
+                       [WAITING FOR
+                        EEG DATA]
+                            │
+                            ▼
+                     Actual AI Model
+
+----------------------------------------------------------------------------------------------------
+
+NeuroCare-AI/
+│
+├── frontend/              # React
+│
+├── backend/               # Node + Express
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── services/
+│   ├── config/
+│   └── server.js
+│
+├── ai-service/            # Python + FastAPI
+│   ├── models/
+│   ├── preprocessing/
+│   ├── explainability/
+│   └── main.py
+│
+├── docs/
+│
+└── README.md

@@ -1,0 +1,17 @@
+EEG Signal
+    ↓
+EEG Preprocessing
+    ↓
+Processed EEG Signal
+    ↓
+AI / Deep Learning Model
+    ↓
+Seizure Detection
+    ↓
+Risk Analysis
+    ↓
+Explainable AI
+    ↓
+Prediction Visualization
+    ↓
+Alert / Monitoring System
